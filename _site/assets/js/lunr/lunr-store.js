@@ -1,7 +1,7 @@
 var store = [{
         "title": "Welcome to googie's blog",
-        "excerpt":"Title   hello world  ","categories": ["jekyll"],
+        "excerpt":"title   first   title2   second   hello world  ","categories": ["first"],
         "tags": [],
-        "url": "/jekyll/first/",
+        "url": "/first/first/",
         "teaser": null
       }]
