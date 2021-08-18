@@ -17,12 +17,13 @@ $grey-4: #ebeff2;
 $grey-5: #c1cad4;
 $grey-6: #b3bcc4;
 $white: #fff;
-$yellow: #FEE85A;
+$yellow: #FFC645;
 $shadow-color: rgba(0, 0, 0, .2);
-$ridi-blue: #1f8ce6;
-$ridi-skyblue: #66baff;
-$purple: #8565fc;
-$light-purple: #997EFA;
+$plab-blue: #2832B4;
+$plab-skyblue: #1F6EFF;
+$red: #FF5550;
+$light-red: #FFDBC8;
+$green: #00A470;
 
 // media
 $break-medium: 900px;
@@ -34,7 +35,7 @@ $serif: "Nanum Myeongjo",sans-serif;
 $source: 'Source Sans Pro', sans-serif;
 
 $monospaced-font: Menlo, Monaco, monospace;
-$code-color: #bf616a;
+$code-color: #FF5550;
 
 @mixin box-sizing($type: border-box) {
   -webkit-box-sizing: $type;
