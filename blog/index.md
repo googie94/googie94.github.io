@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Blog"
-description: 하루 하나의 배움을 올려요.
+description: 하루의 배움을 올려요.
 main: true
 project-header: true
 header-img: img/about.jpg
