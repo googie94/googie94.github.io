@@ -24,7 +24,7 @@ layout: default
     
 <!--포트폴리오 상단 정보-->
     
-    {% if page.blog == true %}
+    {% if page.portfolio == true %}
     <article class="portfolio-info">
         <div>
             <span class="info-title">Role</span>
@@ -55,7 +55,9 @@ layout: default
             </h1>
             현재 열심히 글을 쓰고 있어요. 조금만 기다려주세요!
         </div>
-    {% endif %}    
+    {% endif %} 
 
+<!--큐레이션 영역-->
+    {{ content }}
     
 </div>
