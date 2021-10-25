@@ -64,4 +64,4 @@ python manage.py migrate --fake app-name 0001
 
 ## 레퍼런스
 
-작성중입니다.
+작성중입니다
