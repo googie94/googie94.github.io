@@ -64,6 +64,4 @@ python manage.py migrate --fake app-name 0001
 
 ## 레퍼런스
 
-검색하다가 자주 봤던 블로그인데, 역시나 TIL을 실천 중이었고, TIL의 회고에 대한 글도 있다.
-
-[초보몽키의 개발블로그 - 6개월 간의 회고 🔗](https://wayhome25.github.io/til/2017/08/14/TIL-for-6-months/)
+작성중입니다.
