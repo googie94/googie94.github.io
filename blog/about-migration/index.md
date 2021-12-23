@@ -28,7 +28,7 @@ models.py에서 선언한 모델을 migration으로 바꿔주고 migrate할 때 
 - sqlmigrate: 마이그레이션에 대한 SQL 문을 표시
 - showmigrations: 프로젝트의 마이그레이션 및 상태를 나열
 
-```
+```python
 python manage.py <명령어> + <app-name> + <migration-name>
 
 
