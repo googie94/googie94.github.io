@@ -1,7 +1,8 @@
 pre.highlight,
 .highlight {
+	font-family: 'D2 coding', "Consolas", monospace;
   	background: hsl(220, 13%, 18%);
-	color: #f4f4f4;
+	color: hsl(0, 0%, 96%);
 	border: none;
 	padding: 0.3rem;
 }
@@ -12,9 +13,9 @@ pre.highlight,
  .err { color: white; background-color: hsl(0, 70%, 60%); } /* Error */
  .k { color: hsl(286, 60%, 67%);  } /* Keyword */
  .l { color: hsl( 95, 38%, 62%); } /* Literal */
- .n { color: hsl(220, 14%, 71%); } /* Name */
- .o { color: hsl(220, 14%, 71%); } /* Operator */
- .p { color: hsl(220, 14%, 71%); } /* Punctuation */
+ .n { color: hsl(0, 0%, 96%); } /* Name */
+ .o { color: hsl(0, 0%, 96%); } /* Operator */
+ .p { color: hsl(0, 0%, 96%); } /* Punctuation */
  .cm { color: hsl(220, 10%, 40%); font-style: italic; } /* Comment.Multiline */
  .cp { color: hsl(220, 10%, 40%); font-style: italic; } /* Comment.Preproc */
  .c1 { color: hsl(220, 10%, 40%); font-style: italic; } /* Comment.Single */
