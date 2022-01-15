@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "TwoScoopsOfDjango - Django settings & requirements"
+title:  "Two Scoops Of Django - Django settings & requirements"
 subtitle: "5장 장고 프로젝트 setting.py & requirements.txt 설정"
 type: "TIL"
 blog: true
