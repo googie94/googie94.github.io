@@ -64,32 +64,10 @@ python manage.py runserver --settings=twoscoops.settings.local # 로컬 개발 �
 
 
 
-## 오늘 있었던 일
-
-로컬에서 작업할 때, DB를 Dump해서 로컬DB에 연결해 테스트 환경을 만들곤 하는데, 연결한 것으로 착각하고 지금까지 작업 내용을 Migrate까지 해버렸다.
-구글링을 한 결과, 방법을 정리할 수 있었다.
-
-상황1. DB가 없거나 삭제해도 괜찮은 경우
-
-
-- 마이그레이션을 초기화하고 다시 재생성한다.
-
-
-상황2. 중요한 DB가 있어, 삭제할 수 없는 경우
-
-python manage.py migrate app-name zero
-Django 모델 - django_migration 에서 삭제
-
-
--  마이그레이션 적용을 해제한 후, DB를 적용한다
-
-python manage.py migrate --fake app-name 0001
-
 
 ## 주의하자!
 
-마이그레이션을 할 때에는 `app-name` 을 쓰는 습관을 들이자  원치 않는 마이그레이션이 적용될 수 있기 때문이다
-
+작성중입니다
 
 ## 레퍼런스
 
