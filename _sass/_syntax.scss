@@ -10,7 +10,7 @@ pre.highlight,
  pre { background: hsl(220, 13%, 18%); }
  .hll { background: hsl(220, 13%, 18%); }
  .c {  color: hsl(220, 10%, 40%); font-style: italic;  } /* Comment */
- .err { color: white; background-color: hsl(0, 70%, 60%); } /* Error */
+ .err { color: white; } /* Error background-color: hsl(0, 70%, 60%); */
  .k { color: hsl(286, 60%, 67%);  } /* Keyword */
  .l { color: hsl( 95, 38%, 62%); } /* Literal */
  .n { color: hsl(0, 0%, 96%); } /* Name */
