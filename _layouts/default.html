@@ -10,7 +10,9 @@
             <ul>
                 <li class="transition">
                     <a href="{{ '' | prepend: site.baseurl }}/" 
-                        {% if current[1] == "about" or current[1] == "blog" or current[1] == "project" %} class="normal" 
+                        {% if current[1] == "blog"
+                            or current[1] == "project" 
+                            or current[1] == "tech"%} class="normal" 
                         {% endif %} class="active">Home
                     </a>
                 </li>
@@ -18,6 +20,12 @@
                     <a href="{{ '/project' | prepend: site.baseurl }}" 
                         {% if current[1] == "project" %} class="active"
                         {% endif %} >Project
+                    </a>
+                </li>
+                <li class="transition">
+                    <a href="{{ '/tech' | prepend: site.baseurl }}" 
+                        {% if current[1] == "tech" %} class="active"
+                        {% endif %} >Tech
                     </a>
                 </li>
                 <li class="transition">
