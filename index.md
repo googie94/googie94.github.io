@@ -10,7 +10,7 @@ description: googie yu, who is a Developer based in Ansan, South Korea. | '유�
     <h1 class="intro">
     I'm googie yu,
     </h1>
-    <h1 class="intro">a Full-Stack Web Developer.
+    <h1 class="intro">a Developer.
     </h1>
     <h2 class="intro">개발자 유승국입니다.</h2>
 </section>
