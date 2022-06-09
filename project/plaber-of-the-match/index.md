@@ -16,6 +16,7 @@ team: "디자이너 1명, 마케터 1명, 개발자 2명"
 platforms: "Web"
 date: "2022.04.04 - 2022.04.09 (5Days)"
 order: 1
+comments: true
 ---
 # Overview
 
