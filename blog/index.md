@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Blog"
-description: 배우고 느낀 것을 개발자의 관점에서 말합니다
+description: 개발만 배우지 않아요.<br>생각한 것을 적습니다.
 main: true
 project-header: true
 header-img: img/about.jpg
