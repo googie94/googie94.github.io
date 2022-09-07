@@ -60,4 +60,9 @@ layout: default
 <!--큐레이션 영역-->
     {{ content }}
     
+    {% if page.comments %}
+    <div id="post-disqus" class="container">
+    {% include disqus.html %}
+    </div>
+    {% endif %}
 </div>

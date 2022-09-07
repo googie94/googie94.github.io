@@ -8,7 +8,7 @@ description: googie yu, who is a Developer based in Ansan, South Korea. | 'ìœ ìŠ
 <div class="intro-animation">
 <section class="explanation">
     <h1 class="intro">
-    I'm googie,
+    I'm googie yu,
     </h1>
     <h1 class="intro">a Developer.
     </h1>
