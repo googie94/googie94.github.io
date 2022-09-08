@@ -10,7 +10,7 @@ post-header: true
 header-img: "img/header.jpg"
 order: 1
 comments: true
-draft: true
+draft: false
 ---
 
 클린코드는 포매팅 이상의 훨씬 중요한 것을 의미한다. 때문에 표준 포매팅을 유지하는 것이 유지 보수성의 핵심 유의 사항이다.
@@ -79,6 +79,7 @@ docstring은 지속적으로 수작업으로 업데이트해줘야 한다는 단
 ### 어노테이션
 
 코드 사용자에게 함수 인자로 어떤것을 주어야하고, 받을 수 있는지 힌트를 주는 행위이다.
+힌트는 힌트일뿐, 강제하지 않는다.
 
 ```python
 class Point:
@@ -86,16 +87,60 @@ class Point:
 		self.lat = lat
 		self.long = long
 
-	def locate(latitude: float, longitude: float) -> Point:
-		"""
-		맵에서 좌표에 해당하는 객체 검색
-		"""
+def locate(latitude: float, longitude: float) -> Point:
+	"""맵에서 좌표에 해당하는 객체 검색"""
+	pass
 ```
 인자로 float 타입으로 받고, Point 클래스 객체를 반환한다.
 
+```python
+>>> locate.__annotations__
+{'latitude': <class 'float'>, 'longitude': <class 'float'>, 'return': <class 'Point'>}
+```
+
+__annotation__ 속성을 이용해 문서 생성, 유효성 검증, 타입 체크 등을 할 수 있다. 이외에도 변수의 의도를 설명하는 문자열, 콜백이나 유효성 검사 함수로 사용할 수 있는 callable 등을 사용할 수 있다.
 
 
+### docstring을 사용한 더 나은 설명
+
+```python
+def data_from_response(response: dict) -> dict:
+	if response["status"] != 200:
+		raise ValueError
+	return {"data": response["payload"]}
+```
+
+```python
+def data_from_response(response: dict) -> dict:
+	"""response에 문제가 없다면 response의 payload를 반환
+	-response 사전의 예제:
+	{
+		"status": 200, # <int>
+		"timestamp: "....", # 현재 시간 ISO 포맷 문자열
+		"payload": { ... } # 반환하려는 사전 데이터
+	}
+
+	- 반환 사전의 예제:
+	{
+		"data": { .. }
+	}
+
+	- 발생 가능한 예외:
+		HTTP status가 200이 아닌 경우 ValueError 발생
+	"""
+	if response["status"] != 200:
+		raise ValueError
+	return {"data": response["payload"]}
+```
+
+이를 통해서 입출력 값을 더 잘 이해하게 되고, 단위테스트에서도 유용한 정보로 사용될 수 있다.
+효과적인 문서가 되려면 보다 상세한 정보가 필요하다.
 
 
+### 도구 설정
 
+코딩 스타일이나 가이드라인을 준수하는 것은 여러가지로 중요하다. 이는 필수적이지만 충분하지는 않은 조건이다.
+팀 프로젝트가 준수해야하는 최소한의 요구사항으로 도구를 활용하는 것이 좋다.
 
+Black, Pylint, Mypy 와 같은 도구들을 에디터나 IDE에 통합하여 작업을 수월하게 만들 수 있다.
+파일을 저장함과 동시에 수정작업을 설정시키게 할 수 있다.
