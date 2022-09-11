@@ -17,7 +17,7 @@ Java를 사용하여 개발을 하기 위해선 [JDK(라이브러리)](https://w
 
 
 ![설치](img/install_java.png)
-![설치](img/install_jre.png)
+![설치](img/install-jre.png)
 
 - **x64 DMG(jdk-8u341-macosx-x64.dmg, jre-8u341-macosx-x64.dmg)** 를 다운로드 합니다.
 
