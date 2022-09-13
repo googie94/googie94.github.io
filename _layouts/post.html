@@ -21,33 +21,47 @@ layout: default
             {{ page.subtitle }}
         </h2>
     </div>
-    
+
 <!--포트폴리오 상단 정보-->
-    
+
     {% if page.portfolio == true %}
     <article class="portfolio-info">
+        {% if page.role-title != nil %}
         <div>
             <span class="info-title">Role</span>
             <p class="info-medium">{{ page.role-title }}</p>
             <p class="info-small">{{ page.role-specific }}</p>
         </div>
+        {% endif %}
+        {% if page.team != nil %}
         <div>
             <span class="info-title">Team</span>
             <p class="info-medium">{{ page.team }}</p>
         </div>
+        {% endif %}
+        {% if page.platforms != nil %}
         <div>
             <span class="info-title">Platforms</span>
             <p class="info-medium">{{ page.platforms }}</p>
-        </div>    
+        </div>
+        {% endif %}
+        {% if page.date != nil %}
         <div>
             <span class="info-title">Date</span>
             <p class="info-medium">{{ page.date }}</p>
-        </div>    
+        </div>
+        {% endif %}
+        {% if page.sentence != nil %}
+        <div>
+            <p class="info-sentence">{{ page.sentence }}</p>
+            <span class="info-source">- {{ page.source }}</span>
+        </div>
+        {% endif %}
     </article>
     {% endif %}
 
 <!--draft 일 때-->
-    
+
     {% if page.draft == true %}
         <div class="catalogue-draft-message">
             <h1>
@@ -55,11 +69,11 @@ layout: default
             </h1>
             현재 열심히 글을 쓰고 있어요. 조금만 기다려주세요!
         </div>
-    {% endif %} 
+    {% endif %}
 
 <!--큐레이션 영역-->
     {{ content }}
-    
+
     {% if page.comments %}
     <div id="post-disqus" class="container">
     {% include disqus.html %}

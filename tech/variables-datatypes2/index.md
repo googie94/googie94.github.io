@@ -10,7 +10,7 @@ post-header: true
 header-img: "img/header.jpg"
 order: 4
 comments: true
-draft: false
+draft: true
 ---
 
 변하는 수는 변수, 변하지 않는 수는 상수 라고 말한다.
