@@ -75,8 +75,8 @@ layout: default
     {{ content }}
 
     {% if page.comments %}
-    <div id="post-disqus" class="container">
-    {% include disqus.html %}
+    <div id="post-disqus" class="container" style="margin-top: 100px;">
+        {% include disqus.html %}
     </div>
     {% endif %}
 </div>
