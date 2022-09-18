@@ -24,11 +24,15 @@ draft: false
 현실세계에서 우리가 접하는 것들을 컴퓨터가 인식할 수 있도록 변환하는 과정들을 구체적으로 표현하고 있다.
 
 
+
+
 ### 목적
 대부분의 데이터베이스 개발 프로세스는 세가지 단계를 거친다.
 - 논리적 설계: 테이블과 필드에 대한 정의, 기본키와 외래키의 설정, 테이블간의 관계 설정, 데이터 무결성의 수준
 - 물리적 구현: 테이블 생성, 키 필드와 테이블 관계 설정, 데이터 무결성을 구현하기 위한 적절한 도구를 활용
 - 응용프로그램 개발: 데이터베이스를 활용할 수 있는 응용프로그램을 만든다. 작업들에 대한 적절한 순서를 결정하는 것, 사용을 위한 체계를 만드는 것
+
+
 
 
 ### 학습을 위한 새로운 접근 방법
@@ -47,45 +51,10 @@ draft: false
 `Address -> street_address, city, state, zip_code`
 
 
+
+
 ### 밑줄
 - 논리적인 설계를 잘 해놓으면, 이후 수많은 구조적 변경을 최소화 할 수 있다.
 - 데이터베이스 개발자는 논리적 설계와 구현 단계를 구분하여 집중력, 효과성, 효율성을 최대로 보장받아야 한다고 생각한다.
 
-
-
-
-
-
-
-
-
-
-
-Java를 사용하여 개발을 하기 위해선 [JDK(라이브러리)](https://www.oracle.com/java/technologies/downloads/#java8-mac)와 [JRE(환경)](https://www.oracle.com/java/technologies/downloads/#jre8-macos)를 설치해야 한다.
-
-
-![설치](img/install_java.png)
-![설치](img/install-jre.png)
-
-- **x64 DMG(jdk-8u341-macosx-x64.dmg, jre-8u341-macosx-x64.dmg)** 를 다운로드 합니다.
-
-![설치](img/install_java2.png)
-
-- 로그인이 필요하다면, 만들어주고 설치하면 됩니다.
-
-![설치](img/install_java3.png)
-
-- 다운로드가 완료되면, 폴더를 열어 설치를 이어나갑니다.
-
-- 설치를 확인하려면, 아래 명령어를 입력하면 됩니다.
-```
-java -version
-javac -version
-```
-
-- 설치된 위치를 확인하려면, 아래 명령어를 입력하면 됩니다.
-```
-which java
-which javac
-```
 
