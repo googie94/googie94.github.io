@@ -22,6 +22,18 @@ layout: default
         </h2>
     </div>
 
+<!--draft 일 때-->
+
+    {% if page.draft == true %}
+        <div class="catalogue-draft-message">
+            <h1>
+                🧑🏻‍💻 Coming Soon!
+            </h1>
+            현재 열심히 글을 쓰고 있어요. 조금만 기다려주세요!
+        </div>
+    {% endif %}
+
+
 <!--포트폴리오 상단 정보-->
 
     {% if page.portfolio == true %}
@@ -60,16 +72,6 @@ layout: default
     </article>
     {% endif %}
 
-<!--draft 일 때-->
-
-    {% if page.draft == true %}
-        <div class="catalogue-draft-message">
-            <h1>
-                🧑🏻‍💻 Coming Soon!
-            </h1>
-            현재 열심히 글을 쓰고 있어요. 조금만 기다려주세요!
-        </div>
-    {% endif %}
 
 <!--큐레이션 영역-->
     {{ content }}
