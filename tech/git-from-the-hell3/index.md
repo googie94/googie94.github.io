@@ -2,7 +2,7 @@
 layout: post
 author: "googie"
 title:  "지옥에서 온 GIT(3)"
-subtitle: "버전관리의 본질"
+subtitle: "GIT의 혁신 - branch"
 type: "Git"
 tech: true
 text: true
