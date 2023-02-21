@@ -17,14 +17,12 @@ markdown:       kramdown
 # About
 author:
   name:         googie
-  # url:          https://jihyeleee.com/
   email:        googieyu@gmail.com
   github:       googie94
-  # twitter:      
 
 discus-identifier: googie # add your discus identifier
 
 # Custom vars
 # version:        3.4.1
-# github:
-  # repo:         https://github.com/googie94/
+github:
+  repo:         https://github.com/googie94/
