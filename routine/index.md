@@ -16,11 +16,10 @@ header-img: img/about.jpg
 document.addEventListener('DOMContentLoaded', function() {
 	var calendarEl = document.getElementById('calendar');
 	var calendar = new FullCalendar.Calendar(calendarEl, {
-		height: '700px',
 		firstDay: 1,
 		expandRows: true,
 		timeZone: 'Asia/seoul',
-		// dayMaxEvents: true,
+		dayMaxEvents: true,
 		locale: 'ko',
 		initialView: 'dayGridMonth',
 		eventTimeFormat: {
@@ -38,6 +37,13 @@ document.addEventListener('DOMContentLoaded', function() {
 	    },
 		events: {{ site.data.routine | replace: '=>', ':' }}
 	});
+	console.log(document.body.clientWidth)
+	if (document.body.clientWidth < 800) {
+		calendar.setOption('height', 500);	
+	}
+	else {
+		calendar.setOption('height', 800);
+	}
 	calendar.render();
 });
 </script>		
