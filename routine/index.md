@@ -11,6 +11,7 @@ header-img: img/about.jpg
 <style>
 	.fc-day-sun a { color: #FF4D37; }
 	.fc-day-sat a { color: #1570FF; }
+	.fc-daygrid-event-harness a { color: #151E27; }
 </style>
 <script>
 document.addEventListener('DOMContentLoaded', function() {
@@ -37,23 +38,22 @@ document.addEventListener('DOMContentLoaded', function() {
 	    },
 		events: {{ site.data.routine | replace: '=>', ':' }}
 	});
-	console.log(document.body.clientWidth)
 	if (document.body.clientWidth < 800) {
-		calendar.setOption('height', 500);	
+		calendar.setOption('height', 400);
 	}
 	else {
 		calendar.setOption('height', 800);
 	}
 	calendar.render();
 });
-</script>		
+</script>
 
 <div id='calendar'></div>
 
 <ul class="catalogue">
 {% assign sorted = site.pages | sort: 'order' | reverse %}
 {% for page in sorted %}
-{% if page.book == true %}
+{% if page.routine == true %}
 {% include post-list.html %}
 {% endif %}
 {% endfor %}
