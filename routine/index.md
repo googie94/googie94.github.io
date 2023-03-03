@@ -39,10 +39,10 @@ document.addEventListener('DOMContentLoaded', function() {
 		events: {{ site.data.routine | replace: '=>', ':' }}
 	});
 	if (document.body.clientWidth < 800) {
-		calendar.setOption('height', 400);
+		calendar.setOption('height', 500);
 	}
 	else {
-		calendar.setOption('height', 800);
+		calendar.setOption('height', 600);
 	}
 	calendar.render();
 });
