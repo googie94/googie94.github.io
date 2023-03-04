@@ -27,6 +27,6 @@ head_scripts:
   - https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js
 
 # Custom vars
-# version:        3.4.1
-# github:
-  # repo:         https://github.com/googie94/
+version:        3.4.1
+github:
+  repo:         https://github.com/googie94/
