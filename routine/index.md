@@ -12,6 +12,7 @@ header-img: img/about.jpg
 	.fc-day-sun a { color: #FF4D37; }
 	.fc-day-sat a { color: #1570FF; }
 	.fc-daygrid-event-harness a { color: #151E27; }
+	.fc-daygrid-day-events { color: #151E27; }
 </style>
 <script>
 document.addEventListener('DOMContentLoaded', function() {
