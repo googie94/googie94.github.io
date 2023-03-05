@@ -26,6 +26,13 @@ discus-identifier: googie
 head_scripts:
   - https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js
 
+# plugin
+plugins:
+  - jekyll-sitemap
+
+#github
+github: [metadata]
+
 # Custom vars
 # version:        3.4.1
 # github:

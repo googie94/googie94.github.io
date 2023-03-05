@@ -24,10 +24,11 @@ end
 gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 
 #admin
-gem 'jekyll-admin', group: :jekyll_plugins
+# gem 'jekyll-admin', group: :jekyll_plugins
 # emoji
 gem 'jemoji'
 # Sitemap for search engine
 gem 'jekyll-sitemap'
+gem 'jekyll-feed'
 
 gem "webrick", "~> 1.7"
