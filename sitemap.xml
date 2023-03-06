@@ -12,7 +12,6 @@ lastmod: 2022-04-04 13:00:00
         {% if post.url == '/assets/css/style.css' %}
         {% elsif post.url == '/robots.txt' %}
         {% else %}
-        <loc>{{ post.url }}</loc>
         <loc>{{ site.url }}{{ post.url }}</loc>
         {% if post.lastmod == null %}
         <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
