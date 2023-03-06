@@ -14,11 +14,11 @@ role-title: "프론트엔드, 백엔드 개발자"
 role-specific: "DB 모델링, API 개발, AWS Lambda & SQS, 프론트엔드 개발"
 team: "디자이너 1명, 마케터 1명, 개발자 2명"
 platforms: "Web"
-lastmod: 2022-04-04 13:00:00
 date: "2022.04.04 - 2022.04.09 (5Days)"
 order: 1
 comments: true
 draft: false
+lastmod: 2022-04-04 13:00:00
 ---
 # Overview
 

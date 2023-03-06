@@ -5,6 +5,7 @@ description: 매일을 기록해요
 main: true
 project-header: true
 header-img: img/about.jpg
+lastmod: 2023-03-04 2:00:00
 ---
 <script src='https://cdn.jsdelivr.net/npm/@fullcalendar/core@6.1.4/index.global.min.js'></script>
 <script src='https://cdn.jsdelivr.net/npm/@fullcalendar/daygrid@6.1.4/index.global.min.js'></script>

@@ -4,6 +4,7 @@ title: "googie"
 main: true
 subtitle: Developer googie
 description: googie yu, who is a Developer based in Ansan, South Korea. | '유승국' 개발자입니다.
+lastmod: 2023-03-04 2:00:00
 ---
 <div class="intro-animation">
 <section class="explanation">
