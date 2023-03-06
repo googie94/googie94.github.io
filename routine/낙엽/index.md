@@ -11,7 +11,7 @@ header-img: "img/IMG_9346.JPG"
 order: 2
 comments: true
 draft: false
-date: 2023-03-04T03:00:00
+lastmod: 2023-03-04 2:00:00
 ---
 
 가을 아침 떨어진 낙엽을 보고 마치 나의 모습과 같다고 생각했다.

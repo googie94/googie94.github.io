@@ -11,6 +11,6 @@ header-img: "저녁의구애.jpg"
 order: 5
 comments: true
 draft: true
-date: 2023-03-06T01:00:00
+lastmod: 2023-03-06 1:00:00
 ---
 

@@ -10,7 +10,8 @@ post-header: true
 header-img: "img/header.jpg"
 order: 1
 comments: true
-draft: falsef
+draft: false
+lastmod: 2023-03-04 2:00:00
 ---
 
 클린코드는 포매팅 이상의 훨씬 중요한 것을 의미한다. 때문에 표준 포매팅을 유지하는 것이 유지 보수성의 핵심 유의 사항이다.

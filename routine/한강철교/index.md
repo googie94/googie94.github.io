@@ -11,7 +11,7 @@ header-img: "img/IMG_4009.jpg"
 order: 4
 comments: true
 draft: false
-date: 2023-03-04T03:00:00
+lastmod: 2023-03-04 2:00:00
 ---
 
 한강철교를 향해 뛰고 있다. 오늘은 정해진 거리를 뛰기로 한다. 10킬로를 뛴다. 5킬로 - 반환점 - 5킬로를 생각하고 뛴다.

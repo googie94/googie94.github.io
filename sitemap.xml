@@ -1,5 +1,6 @@
 ---
 layout: null
+lastmod: 2022-04-04 13:00:00
 ---
 
 <?xml version="1.0" encoding="UTF-8"?>
@@ -7,6 +8,9 @@ layout: null
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
         xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     {% for post in site.pages %}
+    {% if post.url == '/assets/css/style.css' %}
+    {% elsif post.url == '/robots.txt' %}
+    {% else %}
     <url>
         <loc>{{ site.url }}{{ post.url }}</loc>
         {% if post.lastmod == null %}
@@ -26,7 +30,7 @@ layout: null
         {% else %}
         <priority>{{ post.sitemap.priority }}</priority>
         {% endif %}
-
     </url>
+    {% endif %}
     {% endfor %}
 </urlset>
