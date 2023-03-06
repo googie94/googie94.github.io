@@ -1,5 +1,5 @@
 # Permalinks
-permalink:      /:year-:month-:day/:title
+# permalink:      /:year-:month-:day/:title
 
 # Setup
 title:          I'm googie yu, a Developer.
@@ -30,10 +30,9 @@ head_scripts:
 plugins:
   - jekyll-sitemap
 
-#github
-github: [metadata]
-
 # Custom vars
 # version:        3.4.1
 # github:
 #   repo:         https://github.com/googie94/
+
+github:         [metadata]
