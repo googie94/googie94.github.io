@@ -11,6 +11,5 @@ header-img: "저녁의구애.jpg"
 order: 5
 comments: true
 draft: true
-date: 2023-03-06T01:00:00
 ---
 

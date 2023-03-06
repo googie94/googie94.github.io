@@ -11,7 +11,6 @@ header-img: "img/IMG_7465.jpg"
 order: 3
 comments: true
 draft: false
-date: 2023-03-04T03:00:00
 ---
 
 NEW DAY! NEW ME!
