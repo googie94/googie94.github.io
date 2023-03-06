@@ -11,7 +11,7 @@ sass:
   style:        :compressed
 
 # Build settings
-markdown:       kramdown
+# markdown:       kramdown
 
 # About
 author:
