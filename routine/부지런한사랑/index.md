@@ -11,6 +11,7 @@ header-img: "img/부지런한_사랑_이슬아.jpg"
 order: 1
 comments: true
 draft: false
+lastmod: 2023-03-04 2:00:00
 ---
 
 글을 잘 쓰는 사람이 되고 싶었다.
