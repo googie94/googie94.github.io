@@ -9,7 +9,7 @@ text: true
 post-header: true
 header-img: "저녁의구애.jpg"
 order: 5
-comments: true
+comments: false
 draft: true
 lastmod: 2023-03-06 1:00:00
 ---

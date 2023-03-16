@@ -22,8 +22,6 @@ layout: default
         </h2>
     </div>
 
-<!--draft 일 때-->
-
     {% if page.draft == true %}
         <div class="catalogue-draft-message">
             <h1>
@@ -32,9 +30,6 @@ layout: default
             현재 열심히 글을 쓰고 있어요. 조금만 기다려주세요!
         </div>
     {% endif %}
-
-
-<!--포트폴리오 상단 정보-->
 
     {% if page.portfolio == true %}
     <article class="portfolio-info">
@@ -72,8 +67,19 @@ layout: default
     </article>
     {% endif %}
 
+    {% if page.table == true %}
+    <div>
+        <strong>목차</strong>
+        <br />
+        <ul>
+            {% for subject in page.subjects %}
+                <li class="link" onclick="window.location.href='#subject{{ forloop.index }}'">{{ subject }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+    <br />
+    {% endif %}
 
-<!--큐레이션 영역-->
     {{ content }}
 
     {% if page.comments %}
