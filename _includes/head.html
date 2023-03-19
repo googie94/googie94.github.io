@@ -6,9 +6,9 @@
     
   <!-- Post info -->
   <meta property="og:site_name" content="{{ site.title }}">
-  <meta property="og:type" content="article" /> 
-  <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
-  <meta property="og:image" content="{% if page.post-header == true or page.project-header == true %}{{ site.url }}{{ page.url }}{{ page.header-img }}{% else %}{{ site.url }}{{ '/img/share-img.jpg'}}{% endif %}">
+  <meta property="og:type" content="website" /> 
+  <meta property="og:url" content="https://googieyu.com/{{ page.url }}" />
+  <meta property="og:image" content="{% if page.post-header == true or page.project-header == true %}https://googieyu.com/{{ page.url }}{{ page.header-img }}{% else %}https://googieyu.com/{{ '/img/share-img.jpg'}}{% endif %}">
   <meta property="og:title" content="{% if page.url == '/' %}{{ page.subtitle}}{% else %}{{ page.title }}{% endif %}">
   <meta property="og:description" content="{% if page.main == true %}{{ page.description }}{% else %}{{ page.content | truncatewords: 30 | strip_html }}{% endif %}"/>
   
