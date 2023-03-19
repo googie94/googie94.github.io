@@ -1,8 +1,8 @@
 ---
 layout: default
-title: "googie"
+title: I'm googie yu, a Developer.
 main: true
-subtitle: Developer googie
+subtitle: "'유승국' 개발자입니다."
 description: googie yu, who is a Developer based in Ansan, South Korea. | '유승국' 개발자입니다.
 lastmod: 2023-03-04 2:00:00
 ---
