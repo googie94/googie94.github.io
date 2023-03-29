@@ -7,63 +7,62 @@
 
 section.explanation {
     padding-top: 40px;
-    
+
     @media (max-width: $break-small) {
         padding-top: 20px;
     }
-    
-    h1.intro {
-        font-family: $source, $san-serif;
-        font-size: 38px;
-        font-weight: bold;
-        line-height: 1.17;
-        margin: 0;
-    
-        @media (max-width: $break-small) {
-        font-size: 32px;
+
+    .intro {
+        &__title {
+            font-family: $source, $san-serif;
+            font-size: 38px;
+            font-weight: bold;
+            line-height: 1.17;
+            margin: 0;
+
+            @media (max-width: $break-small) {
+            font-size: 32px;
+            }
+
+            @media (max-width: 550px) {
+                margin-bottom: 8px;
+            }
         }
-        
-        @media (max-width: 550px) {
-            margin-bottom: 8px;
+        &__sub-title {
+            font-size: 30px;
+            font-weight: 400;
+            font-family: $san-serif;
+            line-height: 1.4;
+            word-wrap: normal;
+            margin: 20px 0 0 0;
+
+            @media (max-width: $break-small) {
+            font-size: 24px;
+            }
         }
-    
     }
-    
-    h2.intro {
-        font-size: 30px;
-        font-weight: 400;
-        font-family: $san-serif;
-        line-height: 1.4;
-        word-wrap: normal;
-        margin: 20px 0 0 0;
-    
-        @media (max-width: $break-small) {
-        font-size: 24px;
-        }    
-        
-    }
-    
+
     p.body {
         font-size: 16px;
         color: $grey-0;
         line-height: 1.75;
         margin: 20px 0 64px 0;
     }
-    
+
     .intro-link {
         display: inline-block;
     }
-    
+
     .intro-link:hover
     a {
         cursor: pointer;
         color: $plab-blue;
-        
+
         @media (max-width: $break-small) {
             color: $grey-0;
         }
     }
-    
+
     .underline,
     .underline-mask {
         width: inherit;
@@ -71,7 +70,7 @@ section.explanation {
         background-color: $grey-2;
         margin-top: -4px;
     }
-    
+
     .underline-mask {
         content: '';
         background-color: $plab-blue;
@@ -82,7 +81,7 @@ section.explanation {
             transform: none;
         }
     }
-    
+
     .intro-link:hover
     .underline-mask {
         transform: scaleX(1);
@@ -91,5 +90,5 @@ section.explanation {
             transform: none;
         }
     }
-    
+
 }
