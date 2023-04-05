@@ -1,7 +1,7 @@
 ---
 layout: post
 author: "googie"
-title:  "Mac(맥)에서 업무 생산성 책임질 앱과 단축키 모음"
+title:  "Mac(맥)에서 업무 생산성을 책임질 앱과 단축키 모음"
 subtitle: "맥북 기본 메모 앱 Notes | 단축키 생성 앱 HammerSpoon"
 type: "Tool"
 tech: true
