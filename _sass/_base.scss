@@ -63,8 +63,31 @@ img {
   max-width: 100%;
 }
 
-td {
-  vertical-align: top;
+
+table {
+  border: 1px solid;
+  border-collapse: collapse;
+  width: 100%;
+
+  thead {
+    background: $yellow;
+  }
+
+  th {
+    border: 1px solid;
+    padding: 5px;
+  }
+
+  td {
+    border: 1px solid;
+    padding: 5px;
+  }
+}
+
+@media (max-width: 480px) {
+  table {
+    font-size: 12px;
+  }
 }
 
 .transition {
