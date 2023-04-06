@@ -41,11 +41,6 @@ document.addEventListener('DOMContentLoaded', function() {
 		calendar.setOption('height', 700);
 	}
 	calendar.render();
-	document.querySelectorAll(".fc-daygrid-day-number").forEach(function(element) {
-	  var day = element.textContent;
-	  day = day.replace("일","");
-	  element.textContent = day;
-	});
 });
 </script>
 
