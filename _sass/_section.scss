@@ -56,7 +56,7 @@ section.explanation {
     .intro-link:hover
     a {
         cursor: pointer;
-        color: $plab-blue;
+        color: $blue500;
 
         @media (max-width: $break-small) {
             color: $grey-0;
@@ -73,7 +73,7 @@ section.explanation {
 
     .underline-mask {
         content: '';
-        background-color: $plab-blue;
+        background-color: $blue500;
         transform: scaleX(0);
 //        transform-origin: 0% 0%;
         transition: transform 300ms ease-in-out;

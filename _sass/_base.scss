@@ -70,7 +70,7 @@ table {
   width: 100%;
 
   thead {
-    background: $yellow;
+    background: $yellow500;
   }
 
   th {
@@ -100,12 +100,60 @@ table {
     text-shadow: none;
 }
 ::-moz-selection {
-    background: $red;
+    background: $red500;
     color: #FFF;
     text-shadow: none;
 }
 ::-webkit-selection {
-    background: $red;
+    background: $red500;
     color: #FFF;
     text-shadow: none;
+}
+
+// CALENDAR
+:root {
+  --fc-border-color: #FFFFFF !important;
+}
+.fc {
+  table {
+    thead {
+      background: $white;
+    }
+  }
+  .fc-toolbar-title {
+    font-size: 25px !important;
+  }
+  .fc-popover-title {
+    font-size: 12px !important;
+  }
+  .fc-daygrid-more-link {
+    font-size: 10px !important;
+  }
+
+  .fc-col-header-cell-cushion {
+    padding: 4px !important;
+    font-size: 12px;
+  }
+
+  .fc-daygrid-day-top {
+    display: block !important;
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .fc-day-sun a {
+    color: $red500;
+  }
+
+  .fc-day-sat a {
+    color: $blue400;
+  }
+
+  .fc-daygrid-event-harness a {
+    color: $black;
+  }
+
+  .fc-daygrid-day-events {
+    color: $black;
+  }
 }

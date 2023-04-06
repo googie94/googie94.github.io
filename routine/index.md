@@ -9,12 +9,6 @@ lastmod: 2023-03-04 2:00:00
 ---
 <script src='https://cdn.jsdelivr.net/npm/@fullcalendar/core@6.1.4/index.global.min.js'></script>
 <script src='https://cdn.jsdelivr.net/npm/@fullcalendar/daygrid@6.1.4/index.global.min.js'></script>
-<style>
-	.fc-day-sun a { color: #FF4D37; }
-	.fc-day-sat a { color: #1570FF; }
-	.fc-daygrid-event-harness a { color: #151E27; }
-	.fc-daygrid-day-events { color: #151E27; }
-</style>
 <script>
 document.addEventListener('DOMContentLoaded', function() {
 	var calendarEl = document.getElementById('calendar');
@@ -30,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
     		hour12: false
     	},
 		eventDidMount: function(event, element) {
-			event.el.style.fontSize = "14px";
+			event.el.style.fontSize = "12px";
 			if (event.event._def.extendedProps.is_success == 0){
 				event.el.firstChild.style.border = "4px solid #FF4D37";
 			}
@@ -41,12 +35,17 @@ document.addEventListener('DOMContentLoaded', function() {
 		events: {{ site.data.routine | replace: '=>', ':' }}
 	});
 	if (document.body.clientWidth < 800) {
-		calendar.setOption('height', 450);
+		calendar.setOption('height', 350);
 	}
 	else {
-		calendar.setOption('height', 800);
+		calendar.setOption('height', 700);
 	}
 	calendar.render();
+	document.querySelectorAll(".fc-daygrid-day-number").forEach(function(element) {
+	  var day = element.textContent;
+	  day = day.replace("일","");
+	  element.textContent = day;
+	});
 });
 </script>
 
