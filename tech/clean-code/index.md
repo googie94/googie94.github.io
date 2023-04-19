@@ -9,7 +9,7 @@ text: true
 post-header: true
 header-img: "img/header.jpg"
 order: 1
-comments: true
+comments: false
 draft: false
 lastmod: 2023-03-04 2:00:00
 ---

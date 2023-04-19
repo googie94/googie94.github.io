@@ -9,7 +9,7 @@ text: true
 post-header: true
 header-img: "img/컴퓨터시스템.jpg"
 order: 2
-comments: true
+comments: false
 draft: true
 lastmod: 2023-03-06 22:00:00
 ---
@@ -74,18 +74,18 @@ linux> gcc -o hello hello.c
 <br />
 
 보안 약점 피하기
-> 
+>
 - 안전한 프로그래밍을 배우는 첫 단계는 프로그램 스택에 데이터와 제어 정보가 저장되는 방식 때문에 생겨나는 영향을 이해하는 것이다.
 
 <br />
 
-**프로세서는 메모리에 저장된 인스트럭션을 읽고 해석한다.**  
-`hello.c`프로그램은 컴파일 시스템에 의해 `hello`라는 실행가능 목적파일로 번역되어 디스크에 저장되었다. 이 실행파일을 유닉스 시스템에서 실행하기 위해서 `shell`이라는 응용프로그램에 그 이름을 입력한다.  
+**프로세서는 메모리에 저장된 인스트럭션을 읽고 해석한다.**
+`hello.c`프로그램은 컴파일 시스템에 의해 `hello`라는 실행가능 목적파일로 번역되어 디스크에 저장되었다. 이 실행파일을 유닉스 시스템에서 실행하기 위해서 `shell`이라는 응용프로그램에 그 이름을 입력한다.
 
 ```c
 linux> ./hello
 hello, world
-linux> 
+linux>
 ```
 <br />
 
