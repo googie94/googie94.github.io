@@ -15,7 +15,7 @@ lastmod: 2023-04-22 20:00:00
 ---
 
 > 같이 들으면 좋을 노래<br />
-- sleeping beauty - paul
+sleeping beauty - paul
 
 
 
