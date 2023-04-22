@@ -7,7 +7,7 @@ type: "Think"
 daily: true
 text: true
 post-header: true
-header-img: "img/IMG_0553.jpg"
+header-img: "img/IMG_0553.JPG"
 order: 8
 comments: false
 draft: false
