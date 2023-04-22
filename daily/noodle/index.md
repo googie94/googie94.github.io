@@ -2,7 +2,7 @@
 layout: post
 author: "googie"
 title:  "잔치국수"
-subtitle: ""
+subtitle: "아버지의 마음"
 type: "Think"
 daily: true
 text: true
