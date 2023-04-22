@@ -29,6 +29,7 @@ gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 gem 'jemoji'
 # Sitemap for search engine
 gem 'jekyll-sitemap'
+gem 'jekyll-video-tag'
 gem 'jekyll-feed'
 gem 'faraday-retry'
 # gem 'jekyll-github-metadata'

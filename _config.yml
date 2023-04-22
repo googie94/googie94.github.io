@@ -29,6 +29,7 @@ head_scripts:
 # plugin
 plugins:
   - jekyll-sitemap
+  - jekyll_video_tag
 
 
 github:         [metadata]
