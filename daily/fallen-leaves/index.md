@@ -4,7 +4,7 @@ author: "googie"
 title:  "낙엽"
 subtitle: "가을 아침 떨어진 낙엽을 보고 마치 나의 모습과 같다고 생각했다"
 type: "Poem"
-routine: true
+daily: true
 text: true
 post-header: true
 header-img: "img/IMG_9346.JPG"

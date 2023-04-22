@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Routine"
+title: "Daily"
 description: 매일을 기록해요
 main: true
 project-header: true
@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function() {
 				event.el.firstChild.style.border = "4px solid #00CB7F";
 			}
 	    },
-		events: {{ site.data.routine | replace: '=>', ':' }}
+		events: {{ site.data.daily | replace: '=>', ':' }}
 	});
 	if (document.body.clientWidth < 800) {
 		calendar.setOption('height', 350);
@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', function() {
 <ul class="catalogue">
 {% assign sorted = site.pages | sort: 'order' | reverse %}
 {% for page in sorted %}
-{% if page.routine == true %}
+{% if page.daily == true %}
 {% include post-list.html %}
 {% endif %}
 {% endfor %}

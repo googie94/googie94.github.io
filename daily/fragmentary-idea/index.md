@@ -4,7 +4,7 @@ author: "googie"
 title:  "단상"
 subtitle: "문득 드는 생각을 기록해야지"
 type: "Think"
-routine: true
+daily: true
 text: true
 post-header: true
 header-img: "img/IMG_7465.jpg"
@@ -58,7 +58,7 @@ NEW DAY! NEW ME!
 <br />
 
 영향을 준 사람
->영향을 준 사람을 말하기 어렵다. 영향을 준 시기가 맞겠다. 내가 자극을 받아들이기로 결심했을때. 
+>영향을 준 사람을 말하기 어렵다. 영향을 준 시기가 맞겠다. 내가 자극을 받아들이기로 결심했을때.
 더 나은 사람이 되고 싶다는 욕심이 생겼을때부터 주변 사람들은 내게 작든 컸든 영향을 줬다.
 
 <br />

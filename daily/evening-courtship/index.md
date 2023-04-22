@@ -4,7 +4,7 @@ author: "googie"
 title:  "저녁의 구애 - 편혜영"
 subtitle: "삶과 죽음과 이기심"
 type: "Book"
-routine: true
+daily: true
 text: true
 post-header: true
 header-img: "저녁의구애.jpg"

@@ -13,7 +13,7 @@
                         <a href="{{ '' | prepend: site.baseurl }}/"
                             {% if current[1] == "project"
                                 or current[1] == "tech"
-                                or current[1] == "routine"%} class="normal"
+                                or current[1] == "daily"%} class="normal"
                             {% endif %} class="active">Home
                         </a>
                     </li>
@@ -31,9 +31,9 @@
                     </li>
                     </li>
                     <li class="transition">
-                        <a href="{{ '/routine' | prepend: site.baseurl }}"
-                            {% if current[1] == "routine" %} class="active"
-                            {% endif %} >Routine
+                        <a href="{{ '/daily' | prepend: site.baseurl }}"
+                            {% if current[1] == "daily" %} class="active"
+                            {% endif %} >Daily
                         </a>
                     </li>
                 </ul>
