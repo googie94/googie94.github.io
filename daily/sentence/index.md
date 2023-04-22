@@ -7,7 +7,7 @@ type: "Book"
 daily: true
 text: true
 post-header: false
-order: 6
+order: 5
 comments: false
 draft: false
 table: true

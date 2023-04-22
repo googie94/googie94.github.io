@@ -8,7 +8,7 @@ daily: true
 text: true
 post-header: true
 header-img: "img/IMG_0553.JPG"
-order: 8
+order: 7
 comments: false
 draft: false
 lastmod: 2023-04-22 20:00:00
