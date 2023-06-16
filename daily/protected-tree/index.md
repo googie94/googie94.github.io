@@ -3,7 +3,7 @@ layout: post
 author: "googie"
 title:  "보호수 앞에서"
 subtitle: "너의 전화를 기다리면서 생각했다"
-type: ""
+type: "Think"
 daily: true
 text: true
 post-header: true
