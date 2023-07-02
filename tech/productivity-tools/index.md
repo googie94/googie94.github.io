@@ -7,7 +7,7 @@ type: "Tool"
 tech: true
 text: true
 post-header: false
-order: 4
+order: 3
 comments: false
 draft: true
 subjects: ["책상 위 움직임 최소화", "Notes(메모)"]
