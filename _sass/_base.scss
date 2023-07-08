@@ -164,3 +164,44 @@ table {
     color: $black;
   }
 }
+
+// CALENDAR-TOOLTIP
+.tooltipevent{
+    width: 200px;
+    position: absolute;
+    z-index: 10001;
+    transform: translate3d(-50%,-100%,0);
+    font-size: 12px;
+    line-height: 12px;
+}
+.tooltipevent div{
+    padding: 4px;
+    text-align: center;
+}
+.tooltipevent div:first-child{
+    font-weight: 600;
+    border: solid 1px black;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px 0px #888888;
+}
+.tooltipevent div:last-child{
+    background-color: white;
+    color: black;
+    position: relative;
+}
+.tooltipevent div:last-child::after, .tooltipevent div:last-child::before{
+    width:0;
+    height:0;
+    border:solid 5px transparent;
+    border-bottom:0;
+    position: absolute;
+    display: block;
+    content: "";
+    bottom:-4px;
+    left:50%;
+    transform:translateX(-50%);
+}
+.tooltipevent div:last-child::before{
+    border-top-color:#888888;
+    bottom:-5px;
+}
