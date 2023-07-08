@@ -10,7 +10,7 @@ post-header: true
 header-img: "img/컴퓨터시스템.jpg"
 order: 2
 comments: false
-draft: true
+draft: false
 lastmod: 2023-03-06 22:00:00
 ---
 
