@@ -1,9 +1,9 @@
 ---
 layout: post
 author: "googie"
-title:  "혼자 여행"
+title:  "혼자 떠나는 여행"
 subtitle: "걱정한 것 만큼 외롭거나 부담스럽지도 않네"
-type: "Think"
+type: "Travel"
 daily: true
 text: true
 post-header: true
@@ -11,7 +11,7 @@ header-img: "img/IMG_3334.JPG"
 order: 12
 comments: false
 draft: false
-lastmod: 2023-04-22 20:00:00
+lastmod: 2023-07-31 20:00:00
 ---
 
 > 같이 들으면 좋을 노래<br />
