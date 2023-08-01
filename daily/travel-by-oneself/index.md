@@ -15,7 +15,7 @@ lastmod: 2023-07-31 20:00:00
 ---
 
 > 같이 들으면 좋을 노래<br />
-삶은 여행 - 이상은
+<a href="https://www.youtube.com/watch?v=21LVZAA5eks">삶은 여행 - 이상은</a>
 
 
 
