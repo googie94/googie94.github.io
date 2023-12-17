@@ -7,6 +7,9 @@ project-header: true
 header-img: img/about.jpg
 lastmod: 2023-03-04 2:00:00
 ---
+<script type="text/javascript">
+  window.location.href="https://googieyu.com/write/";
+</script>
 <script src='https://cdn.jsdelivr.net/npm/@fullcalendar/core@6.1.4/index.global.min.js'></script>
 <script src='https://cdn.jsdelivr.net/npm/@fullcalendar/daygrid@6.1.4/index.global.min.js'></script>\
 <script src="https://cdn.jsdelivr.net/npm/tooltip-js@3.0.0/dist/tooltip-min.min.js"></script>

@@ -13,6 +13,9 @@ comments: false
 draft: false
 lastmod: 2023-03-04 2:00:00
 ---
+<script type="text/javascript">
+  window.location.href="https://googieyu.com/write/";
+</script>
 
 NEW DAY! NEW ME!
 >계속 마음속에 소년이 나이 들지 않았으면 좋겠다.

