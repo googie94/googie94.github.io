@@ -20,6 +20,10 @@ comments: false
 draft: false
 lastmod: 2022-04-04 13:00:00
 ---
+<script type="text/javascript">
+  window.location.href="https://googieyu.com/%ED%94%8C%EB%9E%98%EB%B2%84-%EC%98%A4%EB%B8%8C-%EB%8D%94-%EB%A7%A4%EC%B9%98";
+</script>
+
 # Overview
 
 [플랩풋볼](https://www.plabfootball.com)은 여전히 같은 문제 의식을 갖고 있습니다. 날이 갈수록 고객이 늘어나고 우리의 책임은 높아지고 있습니다. 대체재가 없다는 이유로, 계속 구매가 이루어지고 있다는 이유로 고객의 2시간을 불확실하게 해서는 안됩니다. 그동안 우리는 인지했지만 운영의 효율과 확장을 이유로 가장 중요한 고객 가치를 미루어 두었습니다.

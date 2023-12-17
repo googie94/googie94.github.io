@@ -18,24 +18,16 @@
                         </a>
                     </li>
                     <li class="transition">
-                        <a href="https://tech.googieyu.com/"
+                        <a href="{{ '/project' | prepend: site.baseurl }}"
                             {% if current[1] == "project" %} class="active"
                             {% endif %} >Project
                         </a>
-                        <!-- <a href="{{ '/project' | prepend: site.baseurl }}"
-                            {% if current[1] == "project" %} class="active"
-                            {% endif %} >Project
-                        </a> -->
                     </li>
                     <li class="transition">
-                        <a href="https://tech.googieyu.com/"
+                        <a href="{{ '/tech' | prepend: site.baseurl }}"
                             {% if current[1] == "tech" %} class="active"
                             {% endif %} >Tech
                         </a>
-                        <!-- <a href="{{ '/tech' | prepend: site.baseurl }}"
-                            {% if current[1] == "tech" %} class="active"
-                            {% endif %} >Tech
-                        </a> -->
                     </li>
                     </li>
                     <li class="transition">
